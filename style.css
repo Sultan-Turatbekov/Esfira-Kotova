@@ -33,7 +33,7 @@ header .container .header {
   justify-content: space-between;
   align-items: center;
   padding: 15px;
-  height: 100px !important;
+  height: 90px !important;
 }
 header .container .header .header-left {
   max-width: 300px;
@@ -160,6 +160,7 @@ header .container .header .openbtn {
   display: block;
   margin: 0 auto;
   color: #ffffff;
+  text-shadow: 2px 2px 10px black;
   font-weight: 800;
 }
 .section-intro .intro-top .intro-title p {
@@ -170,6 +171,7 @@ header .container .header .openbtn {
   align-items: center;
   margin-top: 30px;
   color: #facf64;
+  text-shadow: 2px 2px 10px black;
   font-weight: 700;
 }
 .section-intro .intro-top .intro-title .intro-image {
@@ -572,6 +574,9 @@ header .container .header .openbtn {
   padding: 3px 40px;
   background-color: #facf64;
   border-radius: 5px;
+}
+.section4 .requests .requests-cards .cards-item button:hover {
+  background-color: #dbb147;
 }
 .section4 .requests .requests-cards .cards-item button i {
   color: #ffffff;
