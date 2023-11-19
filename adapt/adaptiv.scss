@@ -1,0 +1,688 @@
+$container-width: 1280px;
+
+$header-text: rgb(25, 6, 6);
+$text-color-white: #ffffff;
+$text-color-two: #facf64;
+$text-color-gray: #c0ccd1;
+$hobbi-bg: #bac7dd;
+$hobbi-bg-hover: #757e8c;
+$s2-bg1: #edeff5;
+$s2-bg2: #bbc8dd;
+$s2-bg-hover: #808a9a;
+$input-border-color: #17253b;
+$input-border-color-hover: #0e1725;
+$pricing-cards: rgb(210, 221, 239);
+$s3-bg: #d6dadc;
+
+$btn-hover-gray: #818282;
+
+$footer-bg1: #17253b;
+$footer-bg2: #bbc8dd;
+
+@media screen and (max-width: 1400px) {
+  .section1 {
+    .swiper-info {
+      .swiper {
+        .about-me {
+          .about-text {
+            p {
+              max-width: 500px;
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .section4 {
+    .requests {
+      .requests-block {
+        .requests-cards {
+          .cards-item {
+            max-width: 500px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .section1 {
+    .swiper-info {
+      .swiper {
+        .about-me {
+          .about-title {
+            h2 {
+              margin-bottom: 20px;
+              font-size: 30px;
+            }
+            .social-medias {
+              i {
+                font-size: 20px;
+                width: 40px;
+                height: 40px;
+              }
+            }
+          }
+          .about-text {
+            p {
+              max-width: 400px;
+              font-size: 16px;
+            }
+          }
+        }
+        .experience {
+          padding: 50px;
+          .experience-title {
+            h2 {
+              font-size: 30px;
+              max-width: 210px;
+              margin-bottom: 20px;
+            }
+          }
+          .experience-info {
+            .info-item {
+              max-width: 270px;
+              gap: 50px;
+              p {
+                font-size: 22px;
+                font-weight: 700;
+              }
+              span {
+                font-size: 22px;
+                color: $text-color-gray;
+                font-weight: 600;
+              }
+              .item-text {
+                font-size: 16px;
+                font-weight: 500;
+              }
+              .univ {
+                max-width: 200px;
+              }
+            }
+          }
+        }
+        .swiper-slide {
+          .hobbies {
+            padding: 50px;
+            .hobbies-title {
+              h2 {
+                font-size: 30px;
+                max-width: 280px;
+              }
+            }
+            .hobbi-items {
+              span {
+                width: 120px;
+                height: 120px;
+                i {
+                  top: 45px;
+                  left: 45px;
+                  font-size: 35px;
+                }
+                p {
+                  top: 80px;
+                  left: -10px;
+                  text-align: center;
+                  max-width: 80px;
+                  font-size: 18px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .section3 {
+    .pricing {
+      .price-list {
+        max-width: 400px;
+      }
+      .write-me {
+        max-width: 400px;
+      }
+    }
+  }
+
+  .section4 {
+    .requests {
+      .requests-block {
+        .requests-cards {
+          .cards-item {
+            max-width: 400px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 992px) {
+  .section1 {
+    .swiper-info {
+      .swiper {
+        .about-me {
+          .about-title {
+            h2 {
+              margin-bottom: 20px;
+              font-size: 30px;
+            }
+            i {
+              font-size: 20px;
+              width: 40px;
+              height: 40px;
+            }
+          }
+          .about-text {
+            p {
+              max-width: 400px;
+              font-size: 15px;
+            }
+          }
+        }
+        .experience {
+          padding: 50px;
+          .experience-title {
+            h2 {
+              font-size: 30px;
+              max-width: 210px;
+              margin-bottom: 20px;
+            }
+          }
+          .experience-info {
+            .info-item {
+              max-width: 270px;
+              gap: 50px;
+              p {
+                font-size: 22px;
+                font-weight: 700;
+              }
+              span {
+                font-size: 22px;
+                color: $text-color-gray;
+                font-weight: 600;
+              }
+              .item-text {
+                font-size: 15px;
+                font-weight: 500;
+              }
+              .univ {
+                max-width: 200px;
+              }
+            }
+          }
+        }
+        .swiper-slide {
+          .hobbies {
+            padding: 50px;
+            .hobbies-title {
+              h2 {
+                font-size: 30px;
+                max-width: 280px;
+              }
+            }
+            .hobbi-items {
+              display: grid;
+              grid-template-columns: 1fr 1fr 1fr;
+              place-items: center;
+              span {
+                width: 120px;
+                height: 120px;
+                margin-top: 30px;
+                i {
+                  top: 45px;
+                  left: 45px;
+                  font-size: 35px;
+                }
+                p {
+                  top: 80px;
+                  left: -10px;
+                  text-align: center;
+                  max-width: 80px;
+                  font-size: 17px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .section2 {
+    .section2-items {
+      .item {
+        max-width: 340px;
+      }
+    }
+  }
+  .section3 {
+    .pricing {
+      .price-list {
+        max-width: 320px;
+      }
+
+      .write-me {
+        max-width: 320px;
+      }
+    }
+  }
+  .section4 {
+    .requests {
+      .requests-block {
+        .requests-cards {
+          .cards-item {
+            max-width: 340px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 860px) {
+  header {
+    .header {
+      .header-left,
+      .header-right {
+        display: none;
+      }
+    }
+  }
+  .openbtn {
+    display: inline-block !important;
+  }
+  footer {
+    .footer-top {
+      .contacts {
+        .contacts-block {
+          padding: 15px 35px;
+        }
+      }
+      .qr-code {
+        .qr-code-block {
+          padding: 15px 35px;
+        }
+      }
+    }
+    .footer-bottom {
+      .bottom-block {
+        .social-medias {
+          i {
+            font-size: 20px;
+            padding: 10px;
+            width: 40px;
+            height: 40px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section1 {
+    .swiper-info {
+      .swiper {
+        .about-me {
+          .about-title {
+            h2 {
+              margin-bottom: 20px;
+              font-size: 30px;
+            }
+            .social-medias {
+              display: grid;
+              grid-template-columns: 1fr 1fr;
+              i {
+                font-size: 20px;
+                width: 40px;
+                height: 40px;
+                margin-top: 20px;
+                text-align: center;
+              }
+            }
+          }
+          .about-text {
+            flex-direction: column;
+            p {
+              max-width: 400px;
+              font-size: 16px;
+            }
+          }
+        }
+        .experience {
+          padding: 50px;
+          .experience-title {
+            h2 {
+              font-size: 30px;
+              max-width: 210px;
+              margin-bottom: 20px;
+            }
+          }
+          .experience-info {
+            flex-direction: column;
+            align-items: center;
+            .info-item {
+              max-width: 400px;
+              gap: 50px;
+              p {
+                font-size: 22px;
+                font-weight: 700;
+              }
+              span {
+                font-size: 22px;
+                color: $text-color-gray;
+                font-weight: 600;
+              }
+              .item-text {
+                font-size: 16px;
+                font-weight: 500;
+              }
+              .univ {
+                max-width: 200px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .section2 {
+    .section2-title {
+      h1 {
+        font-size: 30px;
+      }
+    }
+    .section2-items {
+      .item {
+        max-width: 256px;
+        margin-top: 10px;
+        .item-number {
+          width: 40px;
+          height: 40px;
+          font-size: 22px;
+        }
+        h3 {
+          font-size: 24px;
+          font-weight: 700;
+        }
+        p {
+          padding: 10px;
+          font-size: 16px;
+        }
+        h4 {
+          font-size: 22px;
+          font-weight: 600;
+        }
+        ul {
+          li {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+  .section3 {
+    .pricing {
+      padding: 40px 0;
+      .price-list {
+        margin-top: 20px;
+        padding: 10px;
+        max-width: 250px;
+        h3 {
+          font-size: 25px;
+        }
+        p {
+          font-size: 20px;
+        }
+        ul {
+          li {
+            font-size: 16px;
+            margin-top: 8px;
+          }
+        }
+      }
+
+      .write-me {
+        padding: 10px;
+        max-width: 250px;
+        h3 {
+          font-size: 25px;
+        }
+        .btn {
+          a {
+            font-size: 16px;
+            padding: 8px;
+          }
+        }
+      }
+    }
+  }
+  footer {
+    .footer-top {
+      display: flex;
+      flex-direction: column;
+      .contacts {
+        width: 100%;
+        text-align: center;
+        .contacts-block {
+          padding: 20px 100px;
+          .contacts-title {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+            h1 {
+              font-size: 40px;
+              color: $text-color-white;
+              font-weight: 600;
+              border-bottom: 4px solid $text-color-white;
+            }
+          }
+          .links {
+            display: flex;
+            justify-content: center;
+          }
+        }
+      }
+      .qr-code {
+        width: 100%;
+        .qr-code-block {
+          padding: 20px 80px;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .qr-code-title {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+            h1 {
+              font-size: 40px;
+              color: black;
+              font-weight: 600;
+              border-bottom: 4px solid black;
+            }
+          }
+          .qr-img {
+            max-width: 150px;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+            img {
+              width: 100%;
+            }
+          }
+          .btn-footer {
+            .lines {
+              margin-top: 20px;
+              max-width: 140px;
+              display: flex;
+              justify-content: center;
+              &::before,
+              &::after {
+                content: "";
+                flex: 1;
+                height: 2px;
+                background-color: black;
+                margin-top: 20px;
+              }
+              p {
+                color: black;
+                font-size: 24px;
+                font-weight: 600;
+              }
+            }
+            .btn-click {
+              a {
+                padding: 3px 10px;
+                background-color: green;
+                color: white;
+                font-size: 24px;
+                font-weight: 500;
+                border-radius: 10px;
+                text-decoration: none;
+                &:hover {
+                  background-color: rgb(0, 97, 0);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 530px) {
+  header {
+    .header {
+      .header-logo {
+        max-width: 150px !important;
+      }
+      .openbtn{
+        i{
+          font-size: 25px;
+        }
+      }
+    }
+  }
+  .section1 {
+    .swiper-info {
+      .swiper {
+        .swiper-wrapper {
+          .swiper-slide {
+            .hobbies {
+              .hobbi-items {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .section-intro {
+    .intro-top {
+      .intro-title {
+        h1 {
+          font-size: 30px;
+        }
+        p {
+          font-size: 20px;
+        }
+        .intro-image {
+          max-width: 200px;
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  .section1 {
+    .swiper-info {
+      .swiper {
+        .swiper-wrapper {
+          .swiper-slide {
+            .about-me {
+              .about-title {
+                flex-direction: column;
+                align-items: start;
+              }
+            }
+
+            .hobbies {
+              .hobbies-title{
+                display: flex;
+                justify-content: center;
+                h2{
+                  max-width: 150px;
+                }
+              }
+              .hobbi-items {
+                display: grid;
+                grid-template-columns: 1fr;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .section5 {
+    swiper-container {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 200px;
+      height: 200px;
+    }
+
+    swiper-slide img {
+      display: block;
+      width: 100%;
+    }
+  }
+  footer {
+    .footer-top {
+      .contacts {
+        .contacts-block {
+          padding: 5px;
+          .contacts-title {
+            h1 {
+              font-size: 30px;
+            }
+          }
+          .links {
+            ul {
+              padding: 5px;
+              list-style-type: none;
+            }
+          }
+        }
+      }
+      .qr-code {
+        .qr-code-block {
+          padding: 10px;
+          .qr-code-title {
+            h1 {
+              font-size: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
