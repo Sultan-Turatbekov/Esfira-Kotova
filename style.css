@@ -93,7 +93,7 @@ header .container .header .sidepanel {
   width: 0;
   position: fixed;
   z-index: 1;
-  height: auto;
+  height: 300px;
   top: 0;
   right: 0;
   background-color: #ffffff;
@@ -101,7 +101,8 @@ header .container .header .sidepanel {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 10px;
-  border-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 header .container .header .sidepanel.closebtn {
   position: absolute;
@@ -216,7 +217,10 @@ header .container .header .openbtn {
 .section1 .swiper-info .swiper .about-me .about-title .social-medias {
   display: flex;
 }
-.section1 .swiper-info .swiper .about-me .about-title .social-medias i {
+.section1 .swiper-info .swiper .about-me .about-title .social-medias a {
+  text-decoration: none;
+}
+.section1 .swiper-info .swiper .about-me .about-title .social-medias a i {
   font-size: 30px;
   padding: 10px;
   background-color: black;
@@ -227,8 +231,9 @@ header .container .header .openbtn {
   text-align: center;
   margin-right: 20px;
   display: block;
+  transition: 0.3s;
 }
-.section1 .swiper-info .swiper .about-me .about-title .social-medias i:hover {
+.section1 .swiper-info .swiper .about-me .about-title .social-medias a i:hover {
   color: black;
   background-color: white;
   border: 1px black solid;
@@ -727,6 +732,7 @@ footer .footer-bottom .bottom-block .social-medias i {
   height: 50px;
   text-align: center;
   margin-right: 20px;
+  transition: 0.3s;
 }
 footer .footer-bottom .bottom-block .social-medias i:hover {
   color: black;

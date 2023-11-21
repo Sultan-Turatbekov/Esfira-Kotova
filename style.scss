@@ -125,7 +125,7 @@ header {
         width: 0;
         position: fixed;
         z-index: 1;
-        height: auto;
+        height: 300px;
         top: 0;
         right: 0;
         background-color: $text-color-white;
@@ -133,7 +133,8 @@ header {
         overflow-x: hidden;
         transition: 0.5s;
         padding-top: 10px;
-        border-radius: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
         &.closebtn {
           position: absolute;
           top: 0;
@@ -254,21 +255,25 @@ header {
           }
           .social-medias {
             display: flex;
-            i {
-              font-size: 30px;
-              padding: 10px;
-              background-color: black;
-              color: $text-color-white;
-              border-radius: 50%;
-              width: 50px;
-              height: 50px;
-              text-align: center;
-              margin-right: 20px;
-              display: block;
-              &:hover {
-                color: black;
-                background-color: white;
-                border: 1px black solid;
+            a {
+              text-decoration: none;
+              i {
+                font-size: 30px;
+                padding: 10px;
+                background-color: black;
+                color: $text-color-white;
+                border-radius: 50%;
+                width: 50px;
+                height: 50px;
+                text-align: center;
+                margin-right: 20px;
+                display: block;
+                transition: .3s;
+                &:hover {
+                  color: black;
+                  background-color: white;
+                  border: 1px black solid;
+                }
               }
             }
           }
@@ -799,6 +804,7 @@ footer {
           height: 50px;
           text-align: center;
           margin-right: 20px;
+          transition: .3s;
           &:hover {
             color: black;
             background-color: white;
