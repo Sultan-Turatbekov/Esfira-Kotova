@@ -18,6 +18,7 @@ header {
 }
 header.scrolled {
   background-color: #ffffff;
+  box-shadow: 0px 0 5px black;
 }
 header.scrolled .header-logo {
   background-color: #ffffff !important;
@@ -51,6 +52,7 @@ header .container .header .header-left ul li a {
   color: rgb(25, 6, 6);
   font-size: 21px;
   font-weight: 600;
+  transition: 0.3s;
 }
 header .container .header .header-left ul li a:hover {
   border-bottom: 1px solid #facf64;
@@ -61,7 +63,8 @@ header .container .header .header-logo {
   position: relative;
   top: 20px;
   padding: 5px;
-  background-color: transparent;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.645);
   transition: background 0.3s ease;
 }
 header .container .header .header-logo img {
@@ -80,6 +83,7 @@ header .container .header .header-right ul li a {
   color: rgb(25, 6, 6);
   font-size: 21px;
   font-weight: 600;
+  transition: 0.3s;
 }
 header .container .header .header-right ul li a:hover {
   border-bottom: 1px solid #facf64;
@@ -143,7 +147,7 @@ header .container .header .openbtn {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url(https://ncrdo.ru/upload/resize_cache/iblock/87a/500_340_2/87a1155dbe37d49b22efc46b89a69a24.jpg) center/cover;
+  background: url(./img/s-intro.jpg) center/cover;
   filter: blur(5px);
   pointer-events: none;
 }
@@ -338,7 +342,7 @@ header .container .header .openbtn {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url(https://cdn.skillbox.pro/landgen/blocks/universal-teachers-projects/71621/sm/96320e5d-6535-401b-88f6-cb67013ec8f3.png) center/cover;
+  background: url(./img/s2.jpg) center/cover;
   filter: blur(3px);
   pointer-events: none;
 }
@@ -350,8 +354,8 @@ header .container .header .openbtn {
   font-size: 40px;
   color: #ffffff;
   font-weight: 800;
-  max-width: 305px;
-  border-bottom: 8px solid #ffffff;
+  max-width: 310px;
+  border-bottom: 4px solid #ffffff;
   padding-bottom: 10px;
 }
 .section2 .section2-items {
@@ -371,17 +375,19 @@ header .container .header .openbtn {
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: 0.3s;
 }
 .section2 .section2-items .item:nth-child(even) {
   background-color: #bbc8dd;
 }
 .section2 .section2-items .item:hover {
-  background-color: #808a9a;
+  background-color: #b9c1cd;
 }
 .section2 .section2-items .item:hover h3,
 .section2 .section2-items .item:hover h4 {
-  color: black;
-  font-weight: 400;
+  color: #dbb147;
+  font-weight: 700;
+  text-shadow: 0 0 1px black;
 }
 .section2 .section2-items .item .item-number {
   width: 50px;
@@ -396,6 +402,7 @@ header .container .header .openbtn {
   font-size: 30px;
   font-weight: 700;
   color: #facf64;
+  transition: 0.3s;
   text-shadow: 0 0 1px black;
 }
 .section2 .section2-items .item p {
@@ -406,6 +413,7 @@ header .container .header .openbtn {
   text-align: center;
 }
 .section2 .section2-items .item h4 {
+  transition: 0.3s;
   font-size: 25px;
   font-weight: 600;
   color: #facf64;
@@ -536,7 +544,7 @@ header .container .header .openbtn {
 }
 
 .section4 {
-  background: url(https://www.simplilearn.com/ice9/free_resources_article_thumb/What_Is_Business_Analysis_And_Why_Every_Company_Needs_A_Business_Analyst.jpg) center/cover;
+  background: url(./img/section4.avif) center/cover;
   padding: 100px 0;
 }
 .section4 .requests .requests-title {
@@ -618,7 +626,7 @@ footer .footer-top .contacts .contacts-block .contacts-title h1 {
   font-size: 40px;
   color: #ffffff;
   font-weight: 600;
-  border-bottom: 4px solid #ffffff;
+  border-bottom: 3px solid #ffffff;
 }
 footer .footer-top .contacts .contacts-block .links {
   display: flex;
@@ -656,11 +664,11 @@ footer .footer-top .qr-code .qr-code-block .qr-code-title h1 {
   font-size: 40px;
   color: black;
   font-weight: 600;
-  border-bottom: 4px solid black;
+  border-bottom: 3px solid black;
 }
 footer .footer-top .qr-code .qr-code-block .qr-img {
-  max-width: 150px;
-  padding: 10px;
+  max-width: 160px;
+  padding: 4px;
   background-color: #ffffff;
   border-radius: 10px;
 }
@@ -669,7 +677,7 @@ footer .footer-top .qr-code .qr-code-block .qr-img img {
 }
 footer .footer-top .qr-code .qr-code-block .btn-footer .lines {
   margin-top: 20px;
-  max-width: 140px;
+  max-width: 150px;
   display: flex;
   justify-content: center;
 }

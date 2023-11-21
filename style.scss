@@ -19,7 +19,7 @@ $hobbi-bg: #bac7dd;
 $hobbi-bg-hover: #757e8c;
 $s2-bg1: #edeff5;
 $s2-bg2: #bbc8dd;
-$s2-bg-hover: #808a9a;
+$s2-bg-hover: #b9c1cd;
 $input-border-color: #17253b;
 $input-border-color-hover: #0e1725;
 $pricing-cards: rgb(210, 221, 239);
@@ -38,9 +38,10 @@ header {
   background: transparent;
   transition: background 0.3s ease;
   z-index: 10;
-
   &.scrolled {
     background-color: $text-color-white;
+    box-shadow: 0px 0 5px black;
+
     .header-logo {
       background-color: $text-color-white !important;
       box-shadow: 0 0 10px black;
@@ -72,6 +73,8 @@ header {
               color: $header-text;
               font-size: 21px;
               font-weight: 600;
+              transition: 0.3s;
+
               &:hover {
                 border-bottom: 1px solid $text-color-two;
                 color: $text-color-two;
@@ -86,7 +89,8 @@ header {
         position: relative;
         top: 20px;
         padding: 5px;
-        background-color: transparent;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.645);
         // border-radius: 50%;
         transition: background 0.3s ease;
 
@@ -107,6 +111,8 @@ header {
               color: $header-text;
               font-size: 21px;
               font-weight: 600;
+              transition: 0.3s;
+
               &:hover {
                 border-bottom: 1px solid $text-color-two;
                 color: $text-color-two;
@@ -177,8 +183,7 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(https://ncrdo.ru/upload/resize_cache/iblock/87a/500_340_2/87a1155dbe37d49b22efc46b89a69a24.jpg)
-      center/cover;
+    background: url(./img/s-intro.jpg) center/cover;
     filter: blur(5px);
     pointer-events: none;
   }
@@ -388,8 +393,7 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(https://cdn.skillbox.pro/landgen/blocks/universal-teachers-projects/71621/sm/96320e5d-6535-401b-88f6-cb67013ec8f3.png)
-      center/cover;
+    background: url(./img/s2.jpg) center/cover;
     filter: blur(3px);
     pointer-events: none;
   }
@@ -402,8 +406,8 @@ header {
       font-size: 40px;
       color: $text-color-white;
       font-weight: 800;
-      max-width: 305px;
-      border-bottom: 8px solid $text-color-white;
+      max-width: 310px;
+      border-bottom: 4px solid $text-color-white;
       padding-bottom: 10px;
     }
   }
@@ -424,6 +428,7 @@ header {
       display: flex;
       flex-direction: column;
       align-items: center;
+      transition: 0.3s;
       &:nth-child(even) {
         background-color: $s2-bg2;
       }
@@ -431,8 +436,9 @@ header {
         background-color: $s2-bg-hover;
         h3,
         h4 {
-          color: black;
-          font-weight: 400;
+          color: $text-color-two-hover;
+          font-weight: 700;
+          text-shadow: 0 0 1px black;
         }
       }
       .item-number {
@@ -448,6 +454,7 @@ header {
         font-size: 30px;
         font-weight: 700;
         color: $text-color-two;
+        transition: 0.3s;
         text-shadow: 0 0 1px black;
       }
       p {
@@ -458,6 +465,7 @@ header {
         text-align: center;
       }
       h4 {
+        transition: 0.3s;
         font-size: 25px;
         font-weight: 600;
         color: $text-color-two;
@@ -594,8 +602,7 @@ header {
 }
 
 .section4 {
-  background: url(https://www.simplilearn.com/ice9/free_resources_article_thumb/What_Is_Business_Analysis_And_Why_Every_Company_Needs_A_Business_Analyst.jpg)
-    center/cover;
+  background: url(./img/section4.avif) center/cover;
   padding: 100px 0;
   .requests {
     .requests-title {
@@ -631,7 +638,7 @@ header {
           padding: 3px 40px;
           background-color: $text-color-two;
           border-radius: 5px;
-          &:hover{
+          &:hover {
             background-color: $text-color-two-hover;
           }
           i {
@@ -680,7 +687,7 @@ footer {
             font-size: 40px;
             color: $text-color-white;
             font-weight: 600;
-            border-bottom: 4px solid $text-color-white;
+            border-bottom: 3px solid $text-color-white;
           }
         }
         .links {
@@ -720,12 +727,12 @@ footer {
             font-size: 40px;
             color: black;
             font-weight: 600;
-            border-bottom: 4px solid black;
+            border-bottom: 3px solid black;
           }
         }
         .qr-img {
-          max-width: 150px;
-          padding: 10px;
+          max-width: 160px;
+          padding: 4px;
           background-color: $text-color-white;
           border-radius: 10px;
           img {
@@ -735,7 +742,7 @@ footer {
         .btn-footer {
           .lines {
             margin-top: 20px;
-            max-width: 140px;
+            max-width: 150px;
             display: flex;
             justify-content: center;
             &::before,
@@ -776,7 +783,7 @@ footer {
     padding: 20px;
 
     .bottom-block {
-      p{
+      p {
         text-align: center;
       }
       .social-medias {
